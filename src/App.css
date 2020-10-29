@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.parent { 
+  max-width: 800px; 
+  width: 100%; 
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.row { 
+  width: 100%;
+  letter-spacing: -0.31em;
+}
+.col1, .col2, .col3 { 
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+  background: #ccc;
+  padding: 5px;
+  margin: 5px 0.5%;
+  letter-spacing: normal;
+}
+.col1 {
+  width: 10%;
+}
+.col2 {
+  width: 72%;
+}
+.col3 {
+  width: 15%;
+}
